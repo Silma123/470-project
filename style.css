@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-image:url(cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+
+ }
+nav{
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 145, 84);
+}
+li{
+    list-style-type: none;
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(66, 16, 107);
+    padding: 20px;
+    text-decoration: none;
+
+
+}
+li a:hover{
+    background-color: rgb(197, 100, 140);
+}
+.container{
+    
+    margin: auto;
+    overflow: auto;
+    height: 700px;
+   
+}
+.homepage{
+
+margin: auto;
+overflow: auto;
+background: rgb(233, 218, 218);
+}
+
+.gallery{
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border:2px solid rgb(116, 71, 124);
+    float:left;
+    width: 405px;
+}
+.gallery img{
+    width: 400px;
+    height: 300px;
+   
+}
+.gallery1{
+    margin: 10px;
+    margin-top: 10px;
+    border:2px solid rgb(111, 75, 117);
+    float:left;
+    width:405px;
+   
+}
+
+.gallery1 img{
+    width:400px;
+    height: 300px;
+    
+}
+.gallery2{
+    margin: 10px;
+    margin-top: 10px;
+    border:2px solid rgb(112, 70, 116);
+    float:left;
+    width: 405px;
+    height: 310px;
+}
+
+.gallery2 img{
+    width: 400px;
+    height: 305px;
+    
+}
+.gallery3{
+    margin: 10px;
+    margin-left: 20px;
+    border:2px solid rgb(113, 75, 114);
+    float:left;
+    width: 405px;
+}
+
+.gallery3 img{
+    width: 400px;
+    height: 300px;
+    
+}
+.gallery4{
+    margin: 10px;
+    border:2px solid rgb(114, 69, 106);
+    float:left;
+    width: 405px;
+}
+
+.gallery4 img{
+    width: 400px;
+    height: 300px;
+    
+}
+.gallery5{
+    margin: 10px;
+    border:2px solid rgb(114, 69, 106);
+    float:left;
+    width: 405px;
+}
+
+.gallery5 img{
+    width: 400px;
+    height: 300px;
+    
+}
+.box{
+    margin-top: 10px;
+    height: 470px;
+    width: 400px;
+    margin-top: 50px;
+    background-color: rgb(102, 216, 216);
+}
+
+.login{
+    margin-top: 10px;
+    height: 250px;
+    width: 360px;
+    margin-top: 50px;
+    background-color: rgb(119, 72, 194);
+}
+.mb-3{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: rgb(127, 99, 231);
+    padding :5px;
+    text-align: center;
+    
+
+}
+.social_icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0;
+    border-radius: 50%;
+}
