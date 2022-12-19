@@ -35,7 +35,7 @@ if(isset($_POST['submit'])){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
      rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="\470 project\CSS folder\style.css">
 </head>
 <body><nav>
     <ul>
@@ -101,10 +101,10 @@ if(isset($_POST['submit'])){
         <footer>
             <p>All Rights Reserved by Silma Subah </p>
             <div class="social_icons">
-                <img src="facebook.jpg">
-                <img src="instagram.jpg">
-                <img src="youtube.png">
-                <img src="twiter.jpg">
+                <img src="\470 project\images folder\facebook.jpg">
+                <img src="\470 project\images folder\instagram.jpg">
+                <img src="\470 project\images folder\youtube.png">
+                <img src="\470 project\images folder\twiter.jpg">
             </div>
            
           </footer>

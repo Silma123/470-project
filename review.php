@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLan as your desire</title>
-     <link rel="stylesheet" href="review.css">
+     <link rel="stylesheet" href="\470 project\CSS folder\review.css">
     
 </head>
 <body>
@@ -25,7 +25,7 @@
             <h1 class= "heading" >Customer Review</h1>
             <div class ="box-container">
                 <div class="box">
-                    <img src="artist1.jpg" alt="">
+                    <img src="\470 project\images folder\artist1.jpg" alt="">
                     <h3>Planner</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Reiciendis excepturi blanditiis quo? 
@@ -36,7 +36,7 @@
                           <button type= "button" class=" btn-success"> Click</button>
                 </div>
                 <div class="box">
-                    <img src="artist2.jpg" alt="">
+                    <img src="\470 project\images folder\artist2.jpg" alt="">
                     <h3>Planner</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Reiciendis excepturi blanditiis quo? 
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="box">
-                    <img src="artist3.jpg" alt="">
+                    <img src="\470 project\images folder\artist3.jpg" alt="">
                     <h3>Planner</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Reiciendis excepturi blanditiis quo? 
@@ -59,7 +59,7 @@
                           <button type= "button" class=" btn-success"> Click</button>
                 </div>      
                 <div class="box">
-                    <img src="artist4.jpg" alt="">
+                    <img src="\470 project\images folder\artist4.jpg" alt="">
                     <h3>Planner</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Reiciendis excepturi blanditiis quo? 
@@ -70,7 +70,7 @@
                           <button type= "button" class=" btn-success"> Click</button>
                 </div>      
                 <div class="box">
-                    <img src="artist5.jpg" alt="">
+                    <img src="\470 project\images folder\artist5.jpg" alt="">
                     <h3>Planner</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Reiciendis excepturi blanditiis quo? 
@@ -82,7 +82,7 @@
                 </div>      
                 
                 <div class="box">
-                    <img src="artist6.jpg" alt="">
+                    <img src="\470 project\images folder\artist6.jpg" alt="">
                     <h3>Planner</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Reiciendis excepturi blanditiis quo? 
@@ -103,10 +103,10 @@
                 <footer>
             <p>All Rights Reserved by Silma Subah </p>
             <div class="social_icons">
-                <img src="facebook.jpg">
-                <img src="instagram.jpg">
-                <img src="youtube.png">
-                <img src="twiter.jpg">
+                <img src="\470 project\images folder\facebook.jpg">
+                <img src="\470 project\images folder\instagram.jpg">
+                <img src="\470 project\images folder\youtube.png">
+                <img src="\470 project\images folder\twiter.jpg">
             </div>
            
           </footer>

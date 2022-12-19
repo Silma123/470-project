@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plan as your desire</title>
-    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="\470 project\CSS folder\newstyle.css">
 </head>
 <body>
     <nav>
@@ -71,10 +71,10 @@
         <footer>
             <p>All Rights Reserved by Silma Subah </p>
             <div class="social_icons">
-                <img src="facebook.jpg">
-                <img src="instagram.jpg">
-                <img src="youtube.png">
-                <img src="twiter.jpg">
+                <img src="\470 project\images folder\facebook.jpg">
+                <img src="\470 project\images folder\instagram.jpg">
+                <img src="\470 project\images folder\youtube.png">
+                <img src="\470 project\images folder\twiter.jpg">
             </div>
            
           </footer>

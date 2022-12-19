@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLan as your desire</title>
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="\470 project\CSS folder\style.css">
     
 </head>
 <body><nav>
@@ -25,34 +25,34 @@
        
         <div class ="homepage">
             <div class="gallery">
-                <img src="hall1.jpg">
+                <img src="\470 project\images folder\hall1.jpg">
             </div>
             
             <div class="gallery1">
-                <img src="hall2.jpg">
+                <img src="\470 project\images folder\hall2.jpg">
             </div>
             <div class="gallery2">
-                <img src="hall3.jpg">
+                <img src="\470 project\images folder\hall3.jpg">
             </div>
             
             <div class="gallery3">
-                <img src="hall4.jpg">
+                <img src="\470 project\images folder\hall4.jpg">
             </div>
             <div class="gallery4">
-                <img src="hall5.jpg">
+                <img src="\470 project\images folder\hall5.jpg">
             </div>
             <div class="gallery5">
-                <img src="hall6.jpg">
+                <img src="\470 project\images folder\hall6.jpg">
             </div>
         </div>
        
         <footer>
             <p>All Rights Reserved by Silma Subah </p>
             <div class="social_icons">
-                <img src="facebook.jpg">
-                <img src="instagram.jpg">
-                <img src="youtube.png">
-                <img src="twiter.jpg">
+                <img src="\470 project\images folder\facebook.jpg">
+                <img src="\470 project\images folder\instagram.jpg">
+                <img src="\470 project\images folder\youtube.png">
+                <img src="\470 project\images folder\twiter.jpg">
             </div>
           </footer>
 
