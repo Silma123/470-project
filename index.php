@@ -1,11 +1,12 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Grooming</title>
+    <title>PLan as your desire</title>
      <link rel="stylesheet" href="style.css">
     
 </head>
@@ -14,11 +15,11 @@
         <li><a href="\470 project\index.php">Home</a></li>
         <li><a href ="/470 project/signup.php">Sign Up</a></li>
         <li><a href="/470 project/login.php">Login</a></li>
-        <li><a href="#Location">Package</a></li>
-        <li><a href="#User">Hall Booking</a></li>
-        <li><a href="#User">User</a></li>
-        <li><a href="#ContactUs">ContactUs</a></li>
-        <li><a href="#AboutUs">AboutUs</a></li>
+        <li><a href="\470 project\Package.php">Package</a></li>
+        <li><a href="\470 project\review.php">Review</a></li>
+        <li><a href="\470 project\feedback.php">Feedbak</a></li>
+        <li><a href="\470 project\contactus.php">ContactUs</a></li>
+        <li><a href="\470 project\oursevice.php">Ourservices</a></li>
          </ul>
         </nav>
        

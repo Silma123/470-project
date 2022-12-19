@@ -1,7 +1,30 @@
 <?php
-   
+
+$server="localhost";
+$username="root";
+$password="";
+$database="contactforn";
+
+$conn= mysqli_connect($server, $username , $password ,$database);
+
+if(isset($_POST['submit'])){
+
+    $email = $_POST['email'];
+    $name = $_POST['name'];
+    $phonenumber = $_POST['number'];
+    $plannername = $_POST['plannername'];
+    $message = $_POST['message'];
+    $plan = $_POST['plan'];
+
+    $var="INSERT INTO `contacttable`( `email`, `name`, `phonenumber`, `plannername`, `msg`, `plan`) 
+    VALUES ('$email','$name','$phonenumber',' $plannername',' $message',' $plan')";
+    mysqli_query($conn ,$var);
+    header('location:oursevice.php');
+}
+
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,79 +46,44 @@
         <li><a href="\470 project\review.php">Review</a></li>
         <li><a href="\470 project\feedback.php">Feedback</a></li>
         <li><a href="\470 project\contactus.php">ContactUs</a></li>
-        <li><a href="\oursevice.php">Ourservices</a></li>
+        <li><a href="\470 project\oursevice.php">Ourservices</a></li>
          </ul>
         </nav>
-         <?php 
-            error_reporting(0);
-            if ($_SERVER["REQUEST_METHOD"] == "POST"){
-            uploadData();
-
-            }
-            function uploadData(){
-            if ($_SERVER["REQUEST_METHOD"] == "POST"){
-
-                $email = $_POST['email'];
-                $phonenumber = $_POST['number'];
-                $password = $_POST['password'];
-
-                        
-                
-            }
-
-                $server="localhost";
-                $username="root";
-                $password="";
-                $database="signupform";
-
-                $conn = mysqli_connect($server, $username , $password ,$database);
-
-                if(!$conn){
-                    echo '<div class="alert alert-primary" role="alert">
-                    Connection error.
-                    </div>'.mysqli_connect_error();
-
-                }
-                else{
-                    $sql = "INSERT INTO `formtable` (`email`, `phonenumber`, `password`, `date`)
-                     VALUES ( '$email', '$phonenumber', '$password', current_timestamp());";
-                    
-                    $value = mysqli_query($conn ,$sql);
-                    
-                    if($value){
-                        echo '<div class="alert alert-primary" role="alert">
-                        Successful ! Your registration has been completed.
-                        </div>';
-
-                    }
-                    else{
-                        echo '<div class="alert alert-primary" role="alert">
-                       Error ! uploading data.</div>'.mysqli_error($conn);
-
-                    }
-                }
-
-        }
-            
-         ?>
+        
         
         <div class="container">
-             <form action="/470 project/signup.php" method="post">
+             <form action="/470 project/contactus.php" method="post">
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
                         <input type="email" name="email"class="form-control" id="email" placeholder="email address">
                         </div>
+                        <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" name="name"class="form-control" id="name" placeholder="Customer name">
+                    </div>
                     <div class="mb-3">
                     <label for="phonenumber" class="form-label">Phone number</label>
                     <input type="text" name="number"class="form-control" id="number" placeholder="phonenumber">
                     </div> 
                     <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" name="password"class="form-control" id="password" placeholder="password">
+                    <label for="Plannername" class="form-label">Planner Name</label>
+                    <input type="text" name="plannername"class="form-control" id="plannername" 
+                    placeholder="Planner name">
+                    </div> 
+                    <div class="mb-3">
+                    <label for="Message" class="form-label">Enter your specification</label>
+                    <textarea class="form-control" name="message"id="message" rows="3"></textarea>
+                    </div>
+                    <div class = plan>
+                    <select class="form-select" name= "plan" aria-label="Default select example">
+                        <option selected>Basic</option>
+                        <option value="1">Premium</option>
+                        <option value="2">Upgrade</option>
+                        
+                        </select>
                     </div>
                     
-                    
-                    <button type="Submit" class="btn btn-success">Signup</button>
+                    <button type="Submit"  name = "submit" class="btn btn-info">Signup</button>
              </form>
              </div>
             <footer>
